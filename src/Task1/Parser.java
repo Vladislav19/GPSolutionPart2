@@ -11,6 +11,7 @@ import java.util.regex.PatternSyntaxException;
 public class Parser {
     public static void main(String[] args) {
 
+
         List<String> paramStr  = readParam();
         List<String> masStr = readString();
         Set<String[]> result;
